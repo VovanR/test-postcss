@@ -1,0 +1,12 @@
+/* simple */
+@import "foo.css";
+
+/* without extension */
+@import "bar";
+
+/* all styles in dir */
+@import "./baz/**/*.*";
+
+/* qux style must be first */
+@import "qux/qux";
+@import "qux/**/*.*";

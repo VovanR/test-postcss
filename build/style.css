@@ -1,0 +1,38 @@
+/* simple */
+.foo_active {
+    border: 1px solid;
+}
+
+.foo {
+    color: green;
+}
+
+/* without extension */
+.bar {
+    background: red;
+}
+
+/* all styles in dir */
+.baz_fail {
+    color: red;
+}
+.baz_done {
+    color: lime;
+}
+.baz {
+    font-size: 12px;
+}
+
+/* qux style must be first */
+.qux {
+    color: aqua;
+}
+.qux__item_hover {
+    border-color: blue;
+}
+.qux__item {
+    border: 1px solid;
+}
+.qux_focus {
+    color: magenta;
+}
