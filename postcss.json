@@ -1,5 +1,5 @@
 {
-    "postcss-import": {
-        "glob": true
-    }
+  "postcss-use": {
+    "modules": ["postcss-import"]
+  }
 }

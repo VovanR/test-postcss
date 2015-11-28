@@ -1,3 +1,5 @@
+@use postcss-import {glob: true}
+
 /* simple */
 @import "foo.css";
 
