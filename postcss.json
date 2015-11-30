@@ -1,5 +1,8 @@
 {
   "postcss-use": {
-    "modules": ["postcss-import"]
+    "modules": [
+      "postcss-import",
+      "postcss-sprites"
+    ]
   }
 }

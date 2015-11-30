@@ -1,4 +1,8 @@
 @use postcss-import {glob: true}
+@use postcss-sprites {
+    stylesheetPath: "./build";
+    spritePath: "./build/sprite.png";
+}
 
 /* simple */
 @import "foo.css";
