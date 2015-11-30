@@ -2,4 +2,5 @@
 
 .foo {
     color: green;
+    background: url(foo.png) 0 0 no-repeat;
 }
